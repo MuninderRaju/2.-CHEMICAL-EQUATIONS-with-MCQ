@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 2: Chemical Equations - Solutions & Quiz</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- MathJax Configuration -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script id="mathjax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <style>
+    .lang-te { display: none; }
+    .active-te .lang-en { display: none !important; }
+    .active-te .lang-te { display: block !important; }
+    .active-te inline.lang-te, .active-te span.lang-te { display: inline !important; }
+    .answer-content { display: none; }
+    .answer-content.show { display: block; }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans min-h-screen flex flex-col justify-between">
+
+  <!-- Header & Language Switcher -->
+  <header class="bg-blue-800 text-white shadow-md sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div>
+        <h1 class="text-xl md:text-2xl font-bold">2. CHEMICAL EQUATIONS</h1>
+        <p class="text-xs md:text-sm text-blue-200 mt-1">Class 10 Physical Science | Assessment Solutions & Quiz</p>
+      </div>
+      <!-- Language Toggle Switch -->
+      <button onclick="toggleLanguage()" class="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold px-4 py-2 rounded-lg shadow transition duration-200 text-sm flex items-center gap-2">
+        <span>🌐</span>
+        <span id="langBtnText">Switch to Telugu</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="max-w-4xl mx-auto px-4 py-8 flex-grow w-full">
+
+    <div class="bg-white rounded-xl shadow-md p-6 border border-gray-200 mb-6">
+
+      <!-- SECTION 1: VERY SHORT ANSWER QUESTIONS -->
+      <div class="bg-blue-100 border-l-4 border-blue-800 p-3 rounded mb-6">
+        <h2 class="text-lg font-bold text-blue-900">
+          <span class="lang-en">Very Short Answer Questions</span>
+          <span class="lang-te">అతి స్వల్ప సమాధాన ప్రశ్నలు</span>
+        </h2>
+      </div>
+
+      <div class="space-y-4 mb-8">
+        <!-- Q1 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans1', 'icon1')" class="bg-red-50 hover:bg-red-100 p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-base md:text-lg">
+              <span class="lang-en">1. Write chemical equation for the reaction between zinc and hydrochloric acid and balance it.</span>
+              <span class="lang-te">1. జింక్ మరియు హైడ్రోక్లోరిక్ ఆమ్లం మధ్య జరిగే చర్యకు రసాయనిక సమీకరణం రాసి తుల్యం చేయండి.</span>
+            </span>
+            <span id="icon1" class="text-red-700 font-bold text-xl ml-2">+</span>
+          </div>
+          <div id="ans1" class="answer-content p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold">
+            <div class="lang-en space-y-2">
+              <p>Unbalanced Equation: $\text{Zn} + \text{HCl} \rightarrow \text{ZnCl}_2 + \text{H}_2$</p>
+              <p>Balanced Equation: $\text{Zn (s)} + 2\text{HCl (aq)} \rightarrow \text{ZnCl}_2\text{(aq)} + \text{H}_2\text{(g)}$</p>
+            </div>
+            <div class="lang-te space-y-2">
+              <p>తుల్యం కాని సమీకరణం: $\text{Zn} + \text{HCl} \rightarrow \text{ZnCl}_2 + \text{H}_2$</p>
+              <p>తుల్యం చేసిన సమీకరణం: $\text{Zn (s)} + 2\text{HCl (aq)} \rightarrow \text{ZnCl}_2\text{(aq)} + \text{H}_2\text{(g)}$</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans2', 'icon2')" class="bg-red-50 hover:bg-red-100 p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-base md:text-lg">
+              <span class="lang-en">2. Write reactants and products in the following equations and mention their physical states: (a) $\text{Na}_2\text{SO}_4 + \text{BaCl}_2 \rightarrow \text{BaSO}_4 + 2\text{NaCl}$ (b) $\text{CaCO}_3 \rightarrow \text{CaO} + \text{CO}_2$</span>
+              <span class="lang-te">2. కింది సమీకరణాలలో క్రియాజనకాలు, క్రియాజన్యాలు రాసి వాటి భౌతిక స్థితులను తెలపండి: (ఎ) $\text{Na}_2\text{SO}_4 + \text{BaCl}_2 \rightarrow \text{BaSO}_4 + 2\text{NaCl}$ (బి) $\text{CaCO}_3 \rightarrow \text{CaO} + \text{CO}_2$</span>
+            </span>
+            <span id="icon2" class="text-red-700 font-bold text-xl ml-2">+</span>
+          </div>
+          <div id="ans2" class="answer-content p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold">
+            <div class="lang-en space-y-2">
+              <p>(a) Reactants: $\text{Na}_2\text{SO}_4\text{(aq)}, \text{BaCl}_2\text{(aq)}$ | Products: $\text{BaSO}_4\text{(s)}, \text{NaCl (aq)}$</p>
+              <p>(b) Reactants: $\text{CaCO}_3\text{(s)}$ | Products: $\text{CaO (s)}, \text{CO}_2\text{(g)}$</p>
+            </div>
+            <div class="lang-te space-y-2">
+              <p>(ఎ) క్రియాజనకాలు: $\text{Na}_2\text{SO}_4\text{(aq)}, \text{BaCl}_2\text{(aq)}$ | క్రియాజన్యాలు: $\text{BaSO}_4\text{(s)}, \text{NaCl (aq)}$</p>
+              <p>(బి) క్రియాజనకాలు: $\text{CaCO}_3\text{(s)}$ | క్రియాజన్యాలు: $\text{CaO (s)}, \text{CO}_2\text{(g)}$</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans3', 'icon3')" class="bg-red-50 hover:bg-red-100 p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-base md:text-lg">
+              <span class="lang-en">3. Balance the following equations: (a) $\text{N}_2 + \text{H}_2 \rightarrow \text{NH}_3$ (b) $\text{Fe}_2\text{O}_3 + \text{CO} \rightarrow \text{Fe} + \text{CO}_2$</span>
+              <span class="lang-te">3. కింది సమీకరణాలను తుల్యం చేయండి: (ఎ) $\text{N}_2 + \text{H}_2 \rightarrow \text{NH}_3$ (బి) $\text{Fe}_2\text{O}_3 + \text{CO} \rightarrow \text{Fe} + \text{CO}_2$</span>
+            </span>
+            <span id="icon3" class="text-red-700 font-bold text-xl ml-2">+</span>
+          </div>
+          <div id="ans3" class="answer-content p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold">
+            <div class="lang-en space-y-2">
+              <p>(a) $\text{N}_2\text{(g)} + 3\text{H}_2\text{(g)} \rightarrow 2\text{NH}_3\text{(g)}$</p>
+              <p>(b) $\text{Fe}_2\text{O}_3\text{(s)} + 3\text{CO (g)} \rightarrow 2\text{Fe (s)} + 3\text{CO}_2\text{(g)}$</p>
+            </div>
+            <div class="lang-te space-y-2">
+              <p>(ఎ) $\text{N}_2\text{(g)} + 3\text{H}_2\text{(g)} \rightarrow 2\text{NH}_3\text{(g)}$</p>
+              <p>(బి) $\text{Fe}_2\text{O}_3\text{(s)} + 3\text{CO (g)} \rightarrow 2\text{Fe (s)} + 3\text{CO}_2\text{(g)}$</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans4', 'icon4')" class="bg-red-50 hover:bg-red-100 p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-base md:text-lg">
+              <span class="lang-en">4. Give an example each for exothermic, endothermic reactions. Write its chemical equations.</span>
+              <span class="lang-te">4. ఉష్ణమోచక మరియు ఉష్ణశోషక చర్యలకు ఉదాహరణలిచ్చి సమీకరణాలు రాయండి.</span>
+            </span>
+            <span id="icon4" class="text-red-700 font-bold text-xl ml-2">+</span>
+          </div>
+          <div id="ans4" class="answer-content p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold">
+            <div class="lang-en space-y-2">
+              <p>Exothermic Reaction: $\text{CaO (s)} + \text{H}_2\text{O (l)} \rightarrow \text{Ca(OH)}_2\text{(aq)} + \text{Heat}$</p>
+              <p>Endothermic Reaction: $\text{N}_2\text{(g)} + \text{O}_2\text{(g)} + \text{Heat} \rightarrow 2\text{NO(g)}$</p>
+            </div>
+            <div class="lang-te space-y-2">
+              <p>ఉష్ణమోచక చర్య: $\text{CaO (s)} + \text{H}_2\text{O (l)} \rightarrow \text{Ca(OH)}_2\text{(aq)} + \text{ఉష్ణం}$</p>
+              <p>ఉష్ణశోషక చర్య: $\text{N}_2\text{(g)} + \text{O}_2\text{(g)} + \text{ఉష్ణం} \rightarrow 2\text{NO(g)}$</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q5 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans5', 'icon5')" class="bg-red-50 hover:bg-red-100 p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-base md:text-lg">
+              <span class="lang-en">5. What type of reaction is $\text{N}_2\text{(g)} + \text{O}_2\text{(g)} \rightarrow 2\text{NO(g)} - \text{Q}$ based on heat change?</span>
+              <span class="lang-te">5. ఉష్ణ మార్పు ఆధారంగా $\text{N}_2\text{(g)} + \text{O}_2\text{(g)} \rightarrow 2\text{NO(g)} - \text{Q}$ ఎటువంటి చర్య?</span>
+            </span>
+            <span id="icon5" class="text-red-700 font-bold text-xl ml-2">+</span>
+          </div>
+          <div id="ans5" class="answer-content p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold">
+            <div class="lang-en">
+              <p>Answer: Endothermic Reaction (Heat is absorbed during the reaction).</p>
+            </div>
+            <div class="lang-te">
+              <p>జవాబు: ఉష్ణశోషక చర్య (Endothermic Reaction) - ఎందుకంటే ఇందులో ఉష్ణం శోషించబడుతుంది.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 2: SHORT ANSWER QUESTIONS -->
+      <div class="bg-blue-100 border-l-4 border-blue-800 p-3 rounded mb-6">
+        <h2 class="text-lg font-bold text-blue-900">
+          <span class="lang-en">Short Answer Questions</span>
+          <span class="lang-te">స్వల్ప సమాధాన ప్రశ్నలు</span>
+        </h2>
+      </div>
+
+      <div class="space-y-4 mb-8">
+        <!-- Q6 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans6', 'icon6')" class="bg-red-50 hover:bg-red-100 p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-base md:text-lg">
+              <span class="lang-en">6. Why it is necessary to balance a chemical equation?</span>
+              <span class="lang-te">6. రసాయనిక సమీకరణాన్ని తుల్యం చేయడం ఎందుకు అవసరం?</span>
+            </span>
+            <span id="icon6" class="text-red-700 font-bold text-xl ml-2">+</span>
+          </div>
+          <div id="ans6" class="answer-content p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold">
+            <div class="lang-en">
+              <p>Answer: According to the Law of Conservation of Mass, matter can neither be created nor destroyed in a chemical reaction. Therefore, the total number of atoms of each element on the reactant side must be equal to the product side.</p>
+            </div>
+            <div class="lang-te">
+              <p>జవాబు: ద్రవ్య నిత్యత్వ నియమం (Law of Conservation of Mass) ప్రకారం రసాయనిక చర్యలో ద్రవ్యము సృష్టించబడదు లేదా నాశనం కాదు. కావున క్రియాజనకాలలోని పరమాణువుల సంఖ్య, క్రియాజన్యాలలోని పరమాణువుల సంఖ్యకు సమానంగా ఉండాలి.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q7 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans7', 'icon7')" class="bg-red-50 hover:bg-red-100 p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-base md:text-lg">
+              <span class="lang-en">7. From the equation $\text{C(s)} + \text{O}_2\text{(g)} \rightarrow \text{CO}_2\text{(g)}$ find the number of $\text{CO}_2$ molecules formed when 24g of carbon is burnt in adequate oxygen.</span>
+              <span class="lang-te">7. $\text{C(s)} + \text{O}_2\text{(g)} \rightarrow \text{CO}_2\text{(g)}$ సమీకరణం ప్రకారం 24 గ్రాముల కార్బన్‌ను ఆక్సిజన్‌లో మండిస్తే ఏర్పడే కార్బన్ డై ఆక్సైడ్ అణువుల సంఖ్య ఎంత?</span>
+            </span>
+            <span id="icon7" class="text-red-700 font-bold text-xl ml-2">+</span>
+          </div>
+          <div id="ans7" class="answer-content p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold">
+            <div class="lang-en space-y-1">
+              <p>Atomic mass of C = $12\text{ g/mol}$.</p>
+              <p>Number of moles of Carbon in $24\text{g} = \frac{24}{12} = 2\text{ moles}$.</p>
+              <p>From balanced equation, $1\text{ mole of C}$ gives $1\text{ mole of CO}_2$. So $2\text{ moles of C}$ give $2\text{ moles of CO}_2$.</p>
+              <p>Number of $\text{CO}_2$ molecules = $2 \times 6.023 \times 10^{23} = 1.2046 \times 10^{24}\text{ molecules}$.</p>
+            </div>
+            <div class="lang-te space-y-1">
+              <p>కార్బన్ పరమాణు ద్రవ్యరాశి = $12\text{ గ్రాములు/మోల్}$.</p>
+              <p>$24\text{ గ్రాముల}$ కార్బన్ అనగా మోల్స్ సంఖ్య = $\frac{24}{12} = 2\text{ మోల్స్}$.</p>
+              <p>తుల్య సమీకరణం ప్రకారం $1\text{ మోల్}$ కార్బన్ నుండి $1\text{ మోల్}$ $\text{CO}_2$ ఏర్పడుతుంది. కావున $2\text{ మోల్స్}$ నుండి $2\text{ మోల్స్}$ $\text{CO}_2$ ఏర్పడుతుంది.</p>
+              <p>అణువుల సంఖ్య = $2 \times 6.023 \times 10^{23} = 1.2046 \times 10^{24}\text{ అణువులు}$.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 3: ESSAY TYPE QUESTIONS -->
+      <div class="bg-blue-100 border-l-4 border-blue-800 p-3 rounded mb-6">
+        <h2 class="text-lg font-bold text-blue-900">
+          <span class="lang-en">Essay Type Questions</span>
+          <span class="lang-te">వ్యాసరూప సమాధాన ప్రశ్నలు</span>
+        </h2>
+      </div>
+
+      <div class="space-y-4 mb-8">
+        <!-- Q8 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans8', 'icon8')" class="bg-red-50 hover:bg-red-100 p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-base md:text-lg">
+              <span class="lang-en">8. What information does a chemical equation give? Explain with an example.</span>
+              <span class="lang-te">8. రసాయనిక సమీకరణం ద్వారా ఏ సమాచారం తెలుస్తుంది? ఉదాహరణతో వివరించండి.</span>
+            </span>
+            <span id="icon8" class="text-red-700 font-bold text-xl ml-2">+</span>
+          </div>
+          <div id="ans8" class="answer-content p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold">
+            <div class="lang-en space-y-1">
+              <p>1. Names and chemical symbols of reactants and products.</p>
+              <p>2. Physical states of elements/compounds (s, l, g, aq).</p>
+              <p>3. Quantitative ratio of moles, molecules, and masses.</p>
+              <p>4. Heat changes (exothermic or endothermic nature).</p>
+            </div>
+            <div class="lang-te space-y-1">
+              <p>1. చర్యలో పాల్గొనే క్రియాజనకాలు మరియు ఏర్పడే క్రియాజన్యాల వివరాలు.</p>
+              <p>2. పదార్థాల భౌతిక స్థితులు (ఘన, ద్రవ, వాయు, జల ద్రావణం).</p>
+              <p>3. మోల్స్, అణువులు మరియు ద్రవ్యరాశుల పరిమాణాత్మక నిష్పత్తి.</p>
+              <p>4. ఉష్ణ మార్పుల సమాచారం (ఉష్ణమోచక లేదా ఉష్ణశోషక).</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q9 -->
+        <div class="border border-red-200 rounded-lg overflow-hidden bg-white shadow-sm">
+          <div onclick="toggleAnswer('ans9', 'icon9')" class="bg-red-50 hover:bg-red-100 p-4 cursor-pointer flex justify-between items-center transition duration-150">
+            <span class="text-red-700 font-bold text-base md:text-lg">
+              <span class="lang-en">9. What are the changes that may happen to the substances during a chemical change? Explain with an example.</span>
+              <span class="lang-te">9. రసాయనిక చర్య జరిగేటప్పుడు పదార్థాలలో జరిగే మార్పులు ఏమిటి? ఉదాహరణతో వివరించండి.</span>
+            </span>
+            <span id="icon9" class="text-red-700 font-bold text-xl ml-2">+</span>
+          </div>
+          <div id="ans9" class="answer-content p-4 bg-green-50 border-t border-green-200 text-green-900 font-bold">
+            <div class="lang-en space-y-1">
+              <p>1. Change in state of matter.</p>
+              <p>2. Change in colour.</p>
+              <p>3. Evolution or release of gas.</p>
+              <p>4. Change in temperature / Heat energy change.</p>
+              <p>5. Formation of precipitate.</p>
+            </div>
+            <div class="lang-te space-y-1">
+              <p>1. భౌతిక స్థితిలో మార్పు.</p>
+              <p>2. రంగులో మార్పు.</p>
+              <p>3. వాయువు విడుదల కావడం.</p>
+              <p>4. ఉష్ణోగ్రతలో మార్పు రావడము.</p>
+              <p>5. అవక్షేపం ఏర్పడడము.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 4: MULTIPLE CHOICE QUESTIONS QUIZ -->
+      <div class="bg-blue-100 border-l-4 border-blue-800 p-3 rounded mb-6 flex justify-between items-center">
+        <h2 class="text-lg font-bold text-blue-900">
+          <span class="lang-en">Multiple Choice Questions Quiz</span>
+          <span class="lang-te">బహుళైచ్ఛిక ప్రశ్నల క్విజ్ (MCQs)</span>
+        </h2>
+        <span class="text-sm font-bold text-blue-800 bg-white px-3 py-1 rounded-full border border-blue-300">Total: 6 Marks</span>
+      </div>
+
+      <!-- Scoreboard Display -->
+      <div id="scoreBox" class="hidden mb-6 p-4 bg-yellow-50 border-2 border-yellow-400 rounded-xl text-center">
+        <h3 class="text-2xl font-bold text-yellow-800" id="scoreTitle">Your Score: 0 / 6</h3>
+        <p class="text-sm font-bold text-gray-700 mt-1">క్రింద ప్రతీ ప్రశ్నకు సరియైన సమాధానం మరియు విశ్లేషణను చూడండి.</p>
+      </div>
+
+      <form id="quizForm" class="space-y-6">
+
+        <!-- MCQ 1 -->
+        <div class="p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q1_card">
+          <p class="font-bold text-gray-900 mb-3">
+            <span class="lang-en">1. In accordance with this law chemical equations are to be balanced:</span>
+            <span class="lang-te">1. ఏ నియమం ప్రకారం రసాయనిక సమీకరణాలను తుల్యం చేయాలి?</span>
+          </p>
+          <div class="space-y-2 font-bold">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q1" value="A"> 
+              <span class="lang-en">A) Charles' law</span><span class="lang-te">A) చార్లెస్ నియమం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q1" value="B"> 
+              <span class="lang-en">B) Equal proportion</span><span class="lang-te">B) స్థిరానుపాత నియమం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q1" value="C"> 
+              <span class="lang-en">C) Conservation of mass</span><span class="lang-te">C) ద్రవ్య నిత్యత్వ నియమం</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q1" value="D"> 
+              <span class="lang-en">D) Moseley's law</span><span class="lang-te">D) మోస్లే నియమం</span>
+            </label>
+          </div>
+          <div class="q-feedback mt-3 text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- MCQ 2 -->
+        <div class="p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q2_card">
+          <p class="font-bold text-gray-900 mb-3">
+            <span class="lang-en">2. The white precipitate formed in the reaction between $\text{Na}_2\text{SO}_4$ and $\text{BaCl}_2$ is:</span>
+            <span class="lang-te">2. $\text{Na}_2\text{SO}_4$ మరియు $\text{BaCl}_2$ మధ్య చర్య వలన ఏర్పడే తెల్లని అవక్షేపం:</span>
+          </p>
+          <div class="space-y-2 font-bold">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q2" value="A"> A) $\text{Na}_2\text{SO}_3$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q2" value="B"> B) $\text{BaNa}_2$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q2" value="C"> C) $\text{BaSO}_4$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q2" value="D"> D) $\text{NaCl}$</label>
+          </div>
+          <div class="q-feedback mt-3 text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- MCQ 3 -->
+        <div class="p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q3_card">
+          <p class="font-bold text-gray-900 mb-3">
+            <span class="lang-en">3. Products in the reaction $\text{CaCO}_3 \rightarrow \text{CaO} + \text{CO}_2$ are:</span>
+            <span class="lang-te">3. $\text{CaCO}_3 \rightarrow \text{CaO} + \text{CO}_2$ చర్యలో క్రియాజన్యాలు:</span>
+          </p>
+          <div class="space-y-2 font-bold">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q3" value="A"> A) $\text{CaCO}_3, \text{CO}_2$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q3" value="B"> B) $\text{CaCO}_3$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q3" value="C"> C) $\text{CO}_2$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q3" value="D"> D) $\text{CaO}, \text{CO}_2$</label>
+          </div>
+          <div class="q-feedback mt-3 text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- MCQ 4 -->
+        <div class="p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q4_card">
+          <p class="font-bold text-gray-900 mb-3">
+            <span class="lang-en">4. Number of hydrogen atoms in 2g hydrogen gas at STP are:</span>
+            <span class="lang-te">4. STP వద్ద 2 గ్రాముల హైడ్రోజన్ వాయువులో గల హైడ్రోజన్ పరమాణువుల సంఖ్య:</span>
+          </p>
+          <div class="space-y-2 font-bold">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q4" value="A"> A) $6.02 \times 10^{23}$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q4" value="B"> B) $6.02 \times 10^{24}$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q4" value="C"> C) $6.02 \times 10^{-23}$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q4" value="D"> D) $6.02 \times 10^{22}$</label>
+          </div>
+          <div class="q-feedback mt-3 text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- MCQ 5 -->
+        <div class="p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q5_card">
+          <p class="font-bold text-gray-900 mb-3">
+            <span class="lang-en">5. A balanced chemical equation is:</span>
+            <span class="lang-te">5. క్రింది వాటిలో తుల్యం చేయబడిన రసాయనిక సమీకరణం ఏది?</span>
+          </p>
+          <div class="space-y-2 font-bold">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q5" value="A"> A) $\text{Fe}_2\text{O}_3\text{(s)} + 2\text{Al(s)} \rightarrow 2\text{Fe(s)} + \text{Al}_2\text{O}_3$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q5" value="B"> B) $2\text{Fe}_2\text{O}_3\text{(s)} + 2\text{Al(s)} \rightarrow 2\text{Fe(s)} + \text{Al}_2\text{O}_3$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q5" value="C"> C) $\text{Fe}_2\text{O}_3\text{(s)} + \text{Al(s)} \rightarrow 2\text{Fe(s)} + \text{Al}_2\text{O}_3$</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q5" value="D"> D) $\text{Fe}_2\text{O}_3\text{(s)} + 2\text{Al(s)} \rightarrow 2\text{Fe(s)} + 3\text{Al}_2\text{O}_3$</label>
+          </div>
+          <div class="q-feedback mt-3 text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- MCQ 6 -->
+        <div class="p-4 rounded-lg border border-gray-200 bg-gray-50 q-card" id="q6_card">
+          <p class="font-bold text-gray-900 mb-3">
+            <span class="lang-en">6. Amount of hydrochloric acid required to consume 100g calcium carbonate completely is (H-1U, Cl-35.5U, C-12, Ca-40U):</span>
+            <span class="lang-te">6. 100 గ్రాముల కాల్షియం కార్బోనేట్‌ను పూర్తిగా ప్రసమనం చేయడానికి కావలసిన హైడ్రోక్లోరిక్ ఆమ్ల ద్రవ్యరాశి ఎంత?</span>
+          </p>
+          <div class="space-y-2 font-bold">
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q6" value="A"> A) 7.3g</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q6" value="B"> B) 73g</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q6" value="C"> C) 0.73g</label>
+            <label class="flex items-center gap-2 cursor-pointer p-2 rounded hover:bg-gray-100"><input type="radio" name="q6" value="D"> D) 730g</label>
+          </div>
+          <div class="q-feedback mt-3 text-sm hidden border-t pt-3"></div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="text-center pt-4">
+          <button type="button" onclick="submitQuiz()" class="bg-blue-700 hover:bg-blue-800 text-white font-bold px-8 py-3 rounded-lg shadow-lg text-lg transition duration-200">
+            Submit Quiz
+          </button>
+        </div>
+
+      </form>
+
+    </div>
+
+  </main>
+
+  <!-- Footer with User Contact Details -->
+  <footer class="bg-gray-900 text-gray-300 py-6 border-t border-gray-800">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <p class="text-base font-bold text-white mb-1">Prepared by: A. Muninder Raju</p>
+      <p class="text-sm">GHM Chincholi B, Dist: Nirmal, Telangana</p>
+      <p class="text-xs text-gray-400 mt-1">
+        Email: <a href="mailto:muninderadluri@gmail.com" class="text-blue-400 hover:underline">muninderadluri@gmail.com</a>
+      </p>
+      <p class="text-xs text-gray-500 mt-3">© 2026 Abhyasa Vedika. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Script for Language Toggle, Accordion, & Evaluation -->
+  <script>
+    function toggleLanguage() {
+      document.body.classList.toggle('active-te');
+      const btnText = document.getElementById('langBtnText');
+      if (document.body.classList.contains('active-te')) {
+        btnText.innerText = 'Switch to English';
+      } else {
+        btnText.innerText = 'Switch to Telugu';
+      }
+      
+      // Re-evaluate quiz feedback text if already submitted
+      if (!document.getElementById('scoreBox').classList.contains('hidden')) {
+        submitQuiz(true);
+      }
+    }
+
+    function toggleAnswer(ansId, iconId) {
+      const ansElem = document.getElementById(ansId);
+      const iconElem = document.getElementById(iconId);
+      
+      if (ansElem.classList.contains('show')) {
+        ansElem.classList.remove('show');
+        iconElem.innerText = '+';
+      } else {
+        ansElem.classList.add('show');
+        iconElem.innerText = '-';
+      }
+    }
+
+    const correctAnswers = {
+      q1: "C",
+      q2: "C",
+      q3: "D",
+      q4: "B",
+      q5: "A",
+      q6: "B"
+    };
+
+    const explanations = {
+      q1: {
+        en: `<p class="font-bold text-green-800">Explanation:</p><p class="font-bold">Chemical equations are balanced according to the Law of Conservation of Mass.</p><p class="font-bold">Correct Option: C) Conservation of mass</p>`,
+        te: `<p class="font-bold text-green-800">వివరణ:</p><p class="font-bold">ద్రవ్య నిత్యత్వ నియమం ప్రకారం రసాయనిక సమీకరణాలను తుల్యం చేయాలి.</p><p class="font-bold">సరియైన ఎంపిక: C) ద్రవ్య నిత్యత్వ నియమం</p>`
+      },
+      q2: {
+        en: `<p class="font-bold text-green-800">Explanation:</p><p class="font-bold">Barium sulphate ($\\text{BaSO}_4$) is formed as a white precipitate in this reaction.</p><p class="font-bold">Correct Option: C) $\\text{BaSO}_4$</p>`,
+        te: `<p class="font-bold text-green-800">వివరణ:</p><p class="font-bold">ఈ చర్యలో బేరియం సల్ఫేట్ ($\\text{BaSO}_4$) తెల్లని అవక్షేపంగా ఏర్పడుతుంది.</p><p class="font-bold">సరియైన ఎంపిక: C) $\\text{BaSO}_4$</p>`
+      },
+      q3: {
+        en: `<p class="font-bold text-green-800">Explanation:</p><p class="font-bold">Calcium oxide ($\\text{CaO}$) and Carbon dioxide ($\\text{CO}_2$) are products formed on the right side.</p><p class="font-bold">Correct Option: D) $\\text{CaO}, \\text{CO}_2$</p>`,
+        te: `<p class="font-bold text-green-800">వివరణ:</p><p class="font-bold">ఈ వియోగ చర్యలో కాల్షియం ఆక్సైడ్ మరియు కార్బన్ డై ఆక్సైడ్ లు క్రియాజన్యాలుగా ఏర్పడతాయి.</p><p class="font-bold">సరియైన ఎంపిక: D) $\\text{CaO}, \\text{CO}_2$</p>`
+      },
+      q4: {
+        en: `<p class="font-bold text-green-800">Solution:</p><p class="font-bold">2g of $\\text{H}_2$ gas = 1 mole = $6.02 \\times 10^{23}$ molecules.</p><p class="font-bold">Number of Hydrogen atoms = $2 \\times 6.02 \\times 10^{23} = 1.204 \\times 10^{24} \\approx 6.02 \\times 10^{24}$ atoms.</p><p class="font-bold">Correct Option: B) $6.02 \\times 10^{24}$</p>`,
+        te: `<p class="font-bold text-green-800">పరిష్కారం:</p><p class="font-bold">2g హైడ్రోజన్ వాయువు = 1 మోల్ = $6.02 \\times 10^{23}$ అణువులు.</p><p class="font-bold">పరమాణువుల సంఖ్య = $2 \\times 6.02 \\times 10^{23} = 1.204 \\times 10^{24} \\approx 6.02 \\times 10^{24}$.</p><p class="font-bold">సరియైన ఎంపిక: B) $6.02 \\times 10^{24}$</p>`
+      },
+      q5: {
+        en: `<p class="font-bold text-green-800">Explanation:</p><p class="font-bold">In equation A: $\\text{Fe}_2\\text{O}_3\\text{(s)} + 2\\text{Al(s)} \\rightarrow 2\\text{Fe(s)} + \\text{Al}_2\\text{O}_3$, the number of Fe, O, and Al atoms are balanced on both sides.</p><p class="font-bold">Correct Option: A)</p>`,
+        te: `<p class="font-bold text-green-800">వివరణ:</p><p class="font-bold">ఎంపిక A లోని సమీకరణంలో ఇరువైపులా ఫెర్రస్, ఆక్సిజన్ మరియు అల్యూమినియం పరమాణువుల సంఖ్య తుల్యమై ఉంది.</p><p class="font-bold">సరియైన ఎంపిక: A)</p>`
+      },
+      q6: {
+        en: `<p class="font-bold text-green-800">Solution:</p><p class="font-bold">$\\text{CaCO}_3 + 2\\text{HCl} \\rightarrow \\text{CaCl}_2 + \\text{H}_2\\text{O} + \\text{CO}_2$</p><p class="font-bold">100g of $\\text{CaCO}_3$ (1 mole) requires 2 moles of HCl = $2 \\times 36.5 = 73\\text{g}$.</p><p class="font-bold">Correct Option: B) 73g</p>`,
+        te: `<p class="font-bold text-green-800">పరిష్కారం:</p><p class="font-bold">$\\text{CaCO}_3 + 2\\text{HCl} \\rightarrow \\text{CaCl}_2 + \\text{H}_2\\text{O} + \\text{CO}_2$</p><p class="font-bold">100 గ్రాముల $\\text{CaCO}_3$ (1 మోల్) కు 2 మోల్స్ HCl = $2 \\times 36.5 = 73\\text{g}$ అవసరం.</p><p class="font-bold">సరియైన ఎంపిక: B) 73g</p>`
+      }
+    };
+
+    function submitQuiz(isLanguageChange = false) {
+      let score = 0;
+      const total = 6;
+      const isTelugu = document.body.classList.contains('active-te');
+
+      for (let i = 1; i <= total; i++) {
+        const qName = 'q' + i;
+        const selected = document.querySelector(`input[name="${qName}"]:checked`);
+        const qCard = document.getElementById(`${qName}_card`);
+        const feedback = qCard.querySelector('.q-feedback');
+        
+        feedback.classList.remove('hidden', 'bg-green-100', 'bg-red-100', 'text-green-900', 'text-red-900');
+        qCard.classList.remove('bg-green-50', 'bg-red-50', 'border-green-400', 'border-red-400');
+
+        const expText = isTelugu ? explanations[qName].te : explanations[qName].en;
+
+        if (selected) {
+          if (selected.value === correctAnswers[qName]) {
+            score++;
+            qCard.classList.add('bg-green-50', 'border-green-400');
+            feedback.classList.add('bg-green-100', 'text-green-900', 'p-3', 'rounded');
+            feedback.innerHTML = `<p class="font-bold text-green-700 mb-1">✓ Correct Answer! (సరియైన సమాధానం)</p>${expText}`;
+          } else {
+            // ONLY wrong answers marked in RED card
+            qCard.classList.add('bg-red-50', 'border-red-400');
+            feedback.classList.add('bg-green-100', 'text-green-900', 'p-3', 'rounded');
+            feedback.innerHTML = `<p class="font-bold text-red-600 mb-1">✗ Wrong Answer! (మీరు ఎంచుకున్నది: ${selected.value})</p>${expText}`;
+          }
+        } else {
+          qCard.classList.add('bg-red-50', 'border-red-400');
+          feedback.classList.add('bg-green-100', 'text-green-900', 'p-3', 'rounded');
+          feedback.innerHTML = `<p class="font-bold text-red-600 mb-1">⚠ Not Answered!</p>${expText}`;
+        }
+        feedback.classList.remove('hidden');
+      }
+
+      const scoreBox = document.getElementById('scoreBox');
+      const scoreTitle = document.getElementById('scoreTitle');
+      scoreBox.classList.remove('hidden');
+      scoreTitle.innerText = `Your Score: ${score} / ${total}`;
+      
+      if (window.MathJax) {
+        MathJax.typesetPromise();
+      }
+
+      if (!isLanguageChange) {
+        scoreBox.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  </script>
+
+</body>
+</html>
